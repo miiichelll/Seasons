@@ -1,0 +1,44 @@
+header{
+    background-image: url(images/osen.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+#filtr{
+    height: 100vh;
+    background-color: rgba(119, 119, 119, 0.584);
+    display: flex;
+}
+h1{
+    margin:auto;
+    font-size: 6em;
+    color: rgb(255, 227, 151);
+}
+body{
+    margin: 0;
+}
+#poem{
+    display: flex;
+    justify-content: space-around;
+    padding: 55px;
+    background-color: rgb(156, 62, 36);
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+    line-height: 1.5;
+}
+#priznaki{
+background-image: url(images/oknovOsen.jpg);
+height: 50vh;
+background-size: cover;
+padding-top: 90px;
+}
+h2{
+    margin: auto;
+    font-size: 3em;
+color: rgb(36, 26, 20);
+}
+#priznaki div{
+    padding: 60px;
+    margin-left: 140px;
+    background-color: rgba(171, 171, 171, 0.463);
+    width: fit-content;
+}

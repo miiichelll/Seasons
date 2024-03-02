@@ -1,0 +1,79 @@
+table{
+    border-collapse: separate;
+    margin-top: 50px;
+    padding: 30px;
+    border: 10px groove rgb(107, 168, 201);
+    background-color: rgb(50, 108, 225);
+    border-spacing: 15px;
+    margin-left: 30px;
+}
+td{
+    padding: 30px;
+    border: 5px solid rgb(107, 168, 201);
+    border-radius: 38%;
+    color: rgb(255, 255, 255);
+}
+caption{
+    font-size: 2em;
+    background-color: rgb(50, 108, 225);
+    color: rgb(255, 255, 255);
+}
+#holidays{
+    border-color: rgb(200, 126, 223);
+}
+#holidays td{
+    border-color: rgb(200, 126, 223);
+}
+#galery img{
+width: 22%; height: 200px;
+object-fit: cover;
+margin-left: 1%;
+margin-right: 1%;
+min-width: 200px;
+}
+#galery h1{
+    text-align: center;
+    background-color: rgb(50, 108, 225);
+    color: rgb(255, 255, 255);
+    width: fit-content; 
+    margin:20px auto;
+    padding: 5px 19px;
+}
+#galery div{
+    text-align: center;
+}
+#film{
+    width: 100%;
+    margin-top: 35px;
+}
+#film video{
+    width: 100%;
+}
+#sf1{
+    position: absolute;
+    top: 50px;
+    left: 20%;
+    animation: fall 5s infinite;
+}
+#sf2{
+    position: absolute;
+    top: 50px;
+    left: 40%;
+    animation: fall 8s infinite;
+}
+#sf3{
+    position: absolute;
+    top: 50px;
+    left: 55%;
+    animation: fall 9s infinite;
+}
+#sf4{
+    position: absolute;
+    top: 50px;
+    left: 75%;
+    animation: fall 6s infinite;
+}
+@keyframes fall {
+    from{transform: translateY(0) rotate(0); opacity: 1;}
+    to{transform: translateY(350vh) rotate(360deg); opacity: 0;}
+}

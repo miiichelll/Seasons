@@ -1,0 +1,151 @@
+body{
+    background-image: url(images/oduvanchiki.jpg);
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+h1{
+    color: rgb(232, 255, 179);
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(255, 208, 100, 0.48);
+}
+p{
+    color: rgb(232, 255, 179);
+    padding: 50px;
+    background-color: rgba(255, 208, 100, 0.48);
+    font-size: 2em;
+    width: fit-content;
+    margin-left: 20%;
+}
+aside{
+    color: rgb(232, 255, 179);
+    padding: 50px;
+    background-color: rgba(115, 225, 255, 0.475);
+    font-size: 2em;
+    width: fit-content;
+    margin-left: 20%
+}
+li:first-child{
+    background-image: url(images/list32px.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+ul{
+    list-style-type: none;
+}
+li:nth-child(2){
+    background-image: url(images/liliya32px.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+li:nth-child(3){
+    background-image: url(images/svetock32px.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+li:nth-child(4){
+    background-image: url(images/gorshok32px.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 50px;
+    padding: 30px;
+    border: 10px solid rgb(255, 103, 20);
+    background-color: rgba(255, 217, 151, 0.658);
+    border-spacing: 15px;
+    margin-left: 65px;
+}
+td{
+    padding: 30px;
+    border: 5px solid rgb(255, 103, 20);
+    color: rgb(30, 106, 0);
+}
+caption{
+    font-size: 1em;
+    background-color: rgba(255, 217, 151, 0.658);
+    color: rgb(30, 106, 0);
+}
+.galerygaf{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.galerygaf img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.galerygaf figure{
+width: 23%;
+margin: 0;
+}
+section{
+    background-color: rgba(255, 221, 153, 0.652);
+    padding-top: 45px;
+    margin-top: 50px;
+}
+.galerygaf figcaption{
+    background-color: rgb(255, 162, 192);
+
+}
+.galerygaf figure:nth-child(2) figcaption{
+    background-color: rgb(255, 88, 22);
+
+}
+.galerygaf figure:nth-child(3) figcaption{
+    background-color: rgb(234, 255, 49);
+}
+.galerygaf figure:nth-child(4) figcaption{
+    background-color: rgb(179, 229, 255);
+}
+#film{
+    width: 100%;
+    margin-top: 35px;
+}
+#film video{
+    width: 100%;
+}
+#galery h2{
+margin-top: 0;
+text-align: center;
+color: rgb(60, 130, 19);
+font-size: 2.6em;
+}
+#audio{
+    text-align: center;
+    padding-bottom: 30px;
+}
+#blue{
+    position: absolute;
+    top: 0%;
+    left: 17%;
+    animation: fall 13s infinite;
+}
+#green{
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    animation: fall 14s infinite;
+}
+#yellow{
+    position: absolute;
+    top: 0%;
+    left: 55%;
+    animation: fall 12s infinite;
+}
+#pink{
+    position: absolute;
+    top: 0%;
+    left: 80%;
+    animation: fall 15s infinite;
+}
+@keyframes fall{
+    from{transform: translateY(0) rotate(0); opacity:1 ;}
+    to{transform: translateY(350vh) rotate(360deg); opacity: 0;}
+}

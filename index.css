@@ -1,0 +1,35 @@
+#clock{
+    width: 260px;
+    height: 260px;
+    border: 10px groove rgb(0, 0, 0);
+    border-radius: 50%;
+    position: relative;
+    margin: 20px auto;
+}
+h1{
+    text-align: center;
+}
+#strelka1{
+    position: absolute;
+    width: 40%;
+    height: 8px;
+    background-color: black;
+    top: calc(50% - 4px);
+    left: 50%;
+    animation: go 60s linear infinite;
+    transform-origin: left;
+}
+#strelka2{
+    position: absolute;
+    width: 30%;
+    height: 8px;
+    background-color: black;
+    top: calc(50% - 4px);
+    left: 50%;
+    animation: go 3600s linear infinite;
+    transform-origin: left;
+}
+@keyframes go{
+    from{transform: rotate(0);}
+    to{transform: rotate(360deg);}
+}
